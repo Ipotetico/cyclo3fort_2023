@@ -2,6 +2,22 @@
     box-sizing: border-box;
 }
 
+.fwd {
+    width: 7vw;
+    height: 7vw;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.home {
+    width: 7vw;
+    height: 7vw;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
 .background__container {
     position: absolute;
     width: 100vw;

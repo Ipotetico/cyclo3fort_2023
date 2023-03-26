@@ -1,7 +1,14 @@
 import React from 'react'
 
-const Page07 = () => {
+const Page07 = ({setPage}) => {
   return (
+    <>
+            <img onClick={()=> setPage(1)} src={process.env.PUBLIC_URL + '/images/home.svg'} alt="" className="home" />
+
+        <img onClick={()=> setPage(8)} src={process.env.PUBLIC_URL + '/images/fwd.svg'} alt="" className="fwd" />
+
+
+
 <div className="background__container red">
     <img src={process.env.PUBLIC_URL + `/images/tlo_linie.webp`} alt="" className="background" />
     <h1 className="green red">
@@ -47,6 +54,7 @@ naukowych i opinii przemawia na korzyść skuteczności i użyteczności danej o
         </p>
     </div>
 </div>
+</>
   )
 }
 export default Page07

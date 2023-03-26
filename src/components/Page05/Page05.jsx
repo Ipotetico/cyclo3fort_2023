@@ -1,8 +1,16 @@
 import React from 'react'
 import '../Page03/Page03.scss'
 
-const Page05 = () => {
+const Page05 = ({setPage}) => {
   return (
+    <>
+            <img onClick={()=> setPage(1)} src={process.env.PUBLIC_URL + '/images/home.svg'} alt="" className="home" />
+
+        <img onClick={()=> setPage(7)} src={process.env.PUBLIC_URL + '/images/fwd.svg'} alt="" className="fwd" />
+
+    
+    
+
 <div className="background__container">
     <img src={process.env.PUBLIC_URL + `/images/tlo_linie.webp`} alt="" className="background" />
     <h1 className="green">
@@ -39,6 +47,7 @@ poziom dowodów naukowych, wpływ na poszczególne objawy
         </p>
     </div>
 </div>
+    </>
   )
 }
 

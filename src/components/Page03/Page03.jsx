@@ -1,8 +1,13 @@
 import React from 'react'
 import './Page03.scss'
 
-const Page03 = () => {
+const Page03 = ({setPage}) => {
   return (
+    <>
+    <img onClick={()=> setPage(5)} src={process.env.PUBLIC_URL + '/images/fwd.svg'} alt="" className="fwd" />
+        <img onClick={()=> setPage(1)} src={process.env.PUBLIC_URL + '/images/home.svg'} alt="" className="home" />
+
+ 
 <div className="background__container">
       <img src={process.env.PUBLIC_URL + `/images/tlo_linie.webp`} alt="" className="background" />
     <h1 className="green">
@@ -43,6 +48,7 @@ vs. ryzyko działań niepożądanych
         </p>
     </div>
 </div>
+   </>
   )
 }
 

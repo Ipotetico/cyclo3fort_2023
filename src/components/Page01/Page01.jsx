@@ -4,6 +4,7 @@ import './Page01.scss'
 const Page01 = ({setPage}) => {
   return (
     <>
+<img onClick={()=> setPage(8)} src={process.env.PUBLIC_URL + '/images/fwd.svg'} alt="" className="fwd" />
     <div className="background__container linie">
              <img src={process.env.PUBLIC_URL + `/images/tlo_linie.webp`} alt="" />
     </div>
@@ -24,7 +25,7 @@ const Page01 = ({setPage}) => {
 </header>
 <section className="grades__container">
              <img onClick={()=> setPage(3)} src={process.env.PUBLIC_URL + `/images/1A.svg`} alt="" />
-             <img src={process.env.PUBLIC_URL + `/images/7+.svg`} alt="" />
+             <img onClick={()=> setPage(7)} src={process.env.PUBLIC_URL + `/images/7+.svg`} alt="" />
 </section>
 </div>
 <p className="notes">
