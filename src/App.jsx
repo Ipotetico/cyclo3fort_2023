@@ -6,10 +6,14 @@ import Page04 from './components/Page04/Page04';
 import Page05 from './components/Page05/Page05';
 import Page06 from './components/Page06/Page06';
 import Page07 from './components/Page07/Page07';
+import Page08 from './components/Page08/Page08';
+import Page09 from './components/Page09/Page09';
+import Page10 from './components/Page10/Page10';
+import Page11 from './components/Page11/Page11';
 
 const App = () => {
 
-  const [page, setPage] = useState(6)
+  const [page, setPage] = useState(11)
 
   return (
     <>
@@ -20,6 +24,10 @@ const App = () => {
 {    page === 5 && <Page05 setPage={setPage}/>}
 {    page === 6 && <Page06 setPage={setPage}/>}
 {    page === 7 && <Page07 setPage={setPage}/>}
+{    page === 8 && <Page08 setPage={setPage}/>}
+{    page === 9&& <Page09 setPage={setPage}/>}
+{    page === 10&& <Page10 setPage={setPage}/>}
+{    page === 11&& <Page11 setPage={setPage}/>}
     </>
   );
 }
