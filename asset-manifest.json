@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/cyclo3fort_2023/static/css/main.3c632ec7.css",
-    "main.js": "/cyclo3fort_2023/static/js/main.2223ca9d.js",
+    "main.css": "/cyclo3fort_2023/static/css/main.fe22be70.css",
+    "main.js": "/cyclo3fort_2023/static/js/main.616acb15.js",
     "index.html": "/cyclo3fort_2023/index.html",
-    "main.3c632ec7.css.map": "/cyclo3fort_2023/static/css/main.3c632ec7.css.map",
-    "main.2223ca9d.js.map": "/cyclo3fort_2023/static/js/main.2223ca9d.js.map"
+    "main.fe22be70.css.map": "/cyclo3fort_2023/static/css/main.fe22be70.css.map",
+    "main.616acb15.js.map": "/cyclo3fort_2023/static/js/main.616acb15.js.map"
   },
   "entrypoints": [
-    "static/css/main.3c632ec7.css",
-    "static/js/main.2223ca9d.js"
+    "static/css/main.fe22be70.css",
+    "static/js/main.616acb15.js"
   ]
 }
